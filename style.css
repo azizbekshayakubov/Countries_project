@@ -85,6 +85,7 @@ a{
     margin-bottom: 48px;
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .search-container{
@@ -109,7 +110,7 @@ a{
 
 .filter-by-region{
     width: 250px;
-    padding: 0 16px;
+    padding:16px;
     border: none;
     outline: none;
     box-shadow: 0 0 8px 0px rgba(0,0,0,0.15);
@@ -127,5 +128,9 @@ a{
 
     .header-content p {
           font-size: 12px;
+    }
+
+    .search-filter-container{
+        flex-direction: column;
     }
 }
